@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set GitHub raw file URL (Replace with your actual GitHub raw URL)
-GITHUB_RAW_URL="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/CodeClash2025-Setup/main/contest.html"
+GITHUB_RAW_URL="https://raw.githubusercontent.com/Jayesh370/CodeClash2025-Setup/main/contest.html"
 
 # Download contest.html from GitHub
 echo "Downloading contest.html..."
