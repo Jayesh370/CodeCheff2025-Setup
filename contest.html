@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title>Code Clash 2025</title>
+    <script>
+        let warningCount = 0;
+
+        window.addEventListener("blur", function() {
+            warningCount++;
+            if (warningCount >= 2) {
+                alert("❌ You are disqualified for switching tabs!");
+                window.close();
+            } else {
+                alert("⚠ WARNING! Do not switch tabs or minimize. Next time you will be disqualified.");
+            }
+        });
+
+        function enterFullScreen() {
+            if (document.documentElement.requestFullscreen) {
+                document.documentElement.requestFullscreen();
+            }
+        }
+
+        window.onload = function() {
+            enterFullScreen();
+        };
+    </script>
+</head>
+<body onload="enterFullScreen()" style="margin:0;">
+    <iframe src="https://www.hackerrank.com/code-clash-2025-1" width="100%" height="100%" style="border:none;"></iframe>
+</body>
+</html>
