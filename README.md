@@ -1,5 +1,12 @@
 # CodeClash2025-Setup
 Instructions to Run the Script:
+first install these
+- sudo apt update && sudo apt install firefox
+- sudo apt install xdotool
+- sudo apt install x11-xserver-utils
+
+
+
 
 step1:- in ubuntu terminal 
 first create file: nano file_name.sh  so for eg. for round1 is nano round1.sh and respectively for both round2 and round3
