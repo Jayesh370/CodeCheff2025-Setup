@@ -1,6 +1,7 @@
 # CodeClash2025-Setup
- Instructions to Run the Script:
-step1:- lets get started 
+Instructions to Run the Script:
+
+step1:- in ubuntu terminal 
 first create file: nano file_name.sh  so for eg. for round1 is nano round1.sh and respectively for both round2 and round3
 
 step2:-  
