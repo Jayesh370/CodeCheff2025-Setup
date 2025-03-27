@@ -14,6 +14,9 @@ disable_keys() {
     xmodmap -e "keycode 71 = NoSymbol"  # Disable F5 (Refresh)
     xmodmap -e "keycode 95 = NoSymbol"  # Disable F11 (Fullscreen exit)
     xmodmap -e "keycode 133 = NoSymbol" # Disable Left Windows key
+    xmodmap -e "keycode 134 = NoSymbol" # Right Windows Key
+
+    xmodmap -e "keycode 64 = NoSymbol" # Left Alt (Optionally disable if needed)
     xmodmap -e "keycode 23 = NoSymbol"  # Disable Tab
     xmodmap -e "keycode 37 = NoSymbol"  # Disable Left Ctrl
     xmodmap -e "keycode 105 = NoSymbol" # Disable Right Ctrl
