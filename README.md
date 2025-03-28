@@ -11,6 +11,12 @@ first install these
 step1:- in ubuntu notepad
 paste the code of round1.sh into these save in home as that filename.sh
 
+or 
+
+nano filename.sh
+chmod +x filename.sh
+./round1.sh
+
 step2: Make it executable:
 chmod +x filename.sh (eg. chmod +x round1.sh)
 
@@ -19,3 +25,6 @@ step3: Run the script:
 
 for Exit from content 
 use Alt+f4
+
+
+setxkbmap -option
