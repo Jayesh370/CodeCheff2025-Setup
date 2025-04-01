@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Open Firefox in private window with kiosk mode (fullscreen)
-firefox --kiosk --private-window "https://www.hackerrank.com/code-clash-1742887396" &
+firefox --kiosk --private-window "https://www.hackerrank.com/code-clash-2025-1" &
 
 # Wait for Firefox to fully load
 sleep 10
